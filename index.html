@@ -1,44 +1,265 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Vitor Carvalho | Data Portfolio</title>
-    <style>
-        body { 
-            font-family: Arial; 
-            margin: 40px; 
-            background-color: #f7f7f7;
-        }
-        h1 { color: #1f77b4; }
-        .box {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            max-width: 800px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vitor Carvalho | Data Analyst</title>
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f5f7fa;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    h1 {
+      margin-bottom: 5px;
+      color: #1f4e79;
+    }
+
+    h2 {
+      margin-top: 35px;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+    }
+
+    .subtitle {
+      font-size: 18px;
+      margin-bottom: 20px;
+      color: #555;
+    }
+
+    .section {
+      margin-top: 25px;
+    }
+
+    ul {
+      padding-left: 18px;
+    }
+
+    .project {
+      margin-bottom: 18px;
+    }
+
+    .skills span {
+      background: #eef3f8;
+      padding: 6px 10px;
+      margin: 4px;
+      display: inline-block;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    .links a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #1f4e79;
+      font-weight: bold;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
 </head>
 
 <body>
-<div class="box">
 
-<h1>Vitor Carvalho</h1>
-<h2>Data Analyst | Data Scientist</h2>
+<div class="container">
 
-<p>MSc Industrial Engineering — Purdue University</p>
+  <h1>Vitor Farias Costa de Carvalho</h1>
+  <div class="subtitle">Searching for Junior Data Roles</div>
 
-<h3>Projects</h3>
-<ul>
-    <li>PepsiCo Fleet Optimization (Python, ML)</li>
-    <li>Disease Prediction Model (R, Random Forest, KNN)</li>
-    <li>Power BI Finance Dashboard</li>
-</ul>
+  <p>
+    I am an industrial engineer with a strong foundation in analytics, data science, and applied research. I earned both my bachelor's (2023) and master's (2025) degrees in 
+    Industrial Engineering from Purdue University, where I conducted research at the intersection of data science and neuroscience. Through academic research, internship experiences, and a wide 
+    range of projects, I have developed data-driven solutions spanning machine learning for neuroimaging to building personal dashboards that support more informed financial decision-making. 
+    I am passionate about developing solutions to translate complex data into clear, actionable insights. I am currently seeking entry-level opportunities in data science and analytics where I can 
+    apply my technical skills, curious mindset, and collaborative experience to solve challenging problems.
+  </p>
 
-<h3>Links</h3>
-<p>
-<a href="https://github.com/Vitor-FCCarvalho">GitHub</a><br>
-<a href="https://linkedin.com">LinkedIn</a>
-</p>
+  <div class="section">
+    <h2>Programming & Tools</h2>
+    <div class="skills">
+      <span>Python</span>
+      <span>SQL</span>
+      <span>R</span>
+      <span>Power BI</span>
+      <span>MATLAB</span>
+      <span>Excel</span>
+      <span>Power Automate</span>
+      <span>Git</span>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <strong>Human Brain Fingerprinting</strong><br>
+      Over the past few decades, neuroscientists have investigated whether patterns of brain activity are stable and distinctive enough to uniquely identify individuals, much like a biological fingerprint. 
+      If so, such patterns could deepen our understanding of how brain organization varies across people and how those differences relate to behavior, cognition, and mental health. The applications 
+      to this range from aiding in the early detection of neurological or psychiatric conditions to enabling personalized treatment based on brain profiles. Using functional MRI data from 414 participants, 
+      I developed a novel brain fingerprinting framework based on high-dimensional data decomposition techniques. My contributions to this project resulted in a first-author publication, available
+      <a href="https://www.mdpi.com/2076-3417/15/9/4821" target="_blank">here</a>, as well as presentations at international conferences. A sample of the code used to generate the results for this project is available in 
+      this <a href="https://github.com/Vitor-FCCarvalho/Tucker_FC_Fingerprinting" target="_blank">Github repository</a>.
+    </div>
+
+    <div class="skills">
+      <span>MATLAB</span>
+      <span>Machine Learning</span>
+      <span>Tensor Decomposition</span>
+      <span>Optimization</span>
+      <span>Scientific Writing</span>
+      <span>LaTeX</span>
+      <span>Teamwork</span>
+      <span>Presentation Skills</span>
+      <span>Leadership</span>
+    </div>
+
+    <div class="project">
+      <strong></strong><br>
+      This project focused on classifying objects using tactile data collected from substrates embedded with piezoelectric sensors, motivated by the need for reliable touch-based perception
+       in soft robotics applications where visual information may be limited or unreliable. I developed a sparse tactile sensing framework to identify the most informative sensors for object recognition, 
+       enabling accurate classification while minimizing hardware complexity and cost. After preprocessing the signals, I used Gaussian filtering and 
+       Otsu's thresholding to reconstruct object shapes from tactile readings, and implemented a classification pipeline that achieved about 90% accuracy while reducing the number of required sensors by 
+       60%. The results demonstrate how efficient sensor selection and signal processing can improve tactile recognition systems while keeping them scalable and resource-efficient.
+    </div>
+
+    <div class="skills">
+      <span>MATLAB</span>
+      <span>Machine Learning</span>
+      <span>Tensor Decomposition</span>
+      <span>Classification</span>
+      <span>Clustering</span>
+      <span>Teamwork</span>
+      <span>Presentation Skills</span>
+      <span>Leadership</span>
+    </div>
+
+
+    <div class="project">
+      <strong>PepsiCo MPG Optimization (Senior Design Project)</strong><br>
+      PepsiCo's fleet engineers had historically relied on visual trend analysis and expert judgment to guide decisions about purchasing and retiring tractors. My team was tasked with designing
+       a more rigorous, data-driven approach to shift this process from qualitative to quantitative decision-making, with the goals of improving mileage per gallon (MPG), reducing emissions,
+        and supporting PepsiCo's Pep+ sustainability initiative. After conducting exploratory data analysis, we performed feature engineering (including one-hot encoding categorical variables, 
+        standardizing numerical features, and imputing missing values) and trained a Random Forest regressor to identify key factors influencing MPG across the fleet. We translated the model's
+        insights into actionable business recommendations to optimize fleet allocation based on tractor age, mileage, location, and seasonality, projecting up to a 20% reduction in operating 
+        costs while supporting PepsiCo's sustainability goals. 
+    </div>
+
+    <div class="skills">
+      <span>Python</span>
+      <span>Pandas</span>
+      <span>Scikit-learn</span>
+      <span>Matplotlib</span>
+      <span>Seaborn</span>
+      <span>Exploratory Analysis</span>
+      <span>Regression</span>
+      <span>Random Forest</span>
+      <span>Teamwork</span>
+    </div>
+
+    <div class="project">
+      <strong>Web Platform for COVID-19 Trial</strong><br>
+      Collaborated on the development of a web-based respiratory disease diagnosis tool that allows users to securely log in, input symptoms, and receive predictions for conditions such as allergies, 
+      the common cold, flu, and COVID-19. The application included SQL-based data management and built-in feedback features to improve usability over time. On the modeling side, 
+      we implemented a k-nearest neighbors (KNN) classifier to generate illness predictions, using k-fold cross-validation to evaluate performance and stratified bootstrapping to create balanced 
+      training samples and address class imbalance in the dataset.
+    </div>
+
+    <div class="skills">
+      <span>R</span>
+      <span>Caret</span>
+      <span>Class</span>
+      <span>Rfast</span>
+      <span>KNN</span>
+      <span>SQL</span>
+      <span>MySQL</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>PHP</span>
+      <span>Teamwork</span>
+      <span>Leadership</span>
+    </div>
+
+    <div class="project">
+      <strong>Personal Finance Dashboard</strong><br>
+      This personal project was developed to help me better manage my spending through an automated, data-driven workflow. I built an end-to-end pipeline using Power Automate to parse
+      incoming credit card transaction emails, extract key information (date, merchant, and amount), and load the data into a centralized Excel dataset. I then created a merchant-classification system 
+      using Excel (XLOOKUP and a custom mapping table) to automatically assign each transaction to categories such as groceries, dining, and shopping. To support ongoing tracking, I implemented 
+      daily refreshes so the dataset and visuals would update automatically as new transactions arrived. Finally, I designed an interactive, mobile Power BI dashboard to analyze spending trends 
+      over time, enabling dynamic filtering by category, merchant, and period. This tool has been highly effective in increasing my awareness of spending patterns and supporting more intentional
+      financial decisions.
+
+    <div class="skills">
+      <span>Power BI</span>
+      <span>Excel</span>
+      <span>Power Automate</span>
+      <span>ETL Pipeline Design</span>
+    </div>
+
+  </div>
+
+  <div class="section">
+    <h2>Education</h2>
+    <p>Master of Science in Industrial Engineering (May 2025), GPA: 3.86/4.0 — Purdue University, West Lafayette, IN, USA</p>
+    <p>Bachelor of Science in Industrial Engineering, minor in Mathematics (May 2023), GPA: 3.74/4.0 — Purdue University, West Lafayette, IN, USA</p>
+  </div>
+
+  <div class="section">
+    <h2>Awards and Scholarships</h2>
+      <ul>
+        <li> <strong>Teaching/Research Assistantship (2023-2025)</strong>: Graduate funding providing tuition remission and a stipend while I conducted research and supported undergraduate instruction during my master's program</li>
+        <li> <strong>Senior Design Executional Excellence Award (2023)</strong>: Awarded for the quality of work done in PepsiCo's fleet MPG optimization project (ranking 1st out of 34 senior design teams)</li>
+        <li> <strong>Summer Undergraduate Research Fellowship (2022)</strong>: Competitive summer program that funds undergraduates in conducting faculty-mentored research</li>
+        <li> <strong>Amazon SCOT/INFORMS Scholarship (2022)</strong>: Amazon Science scholarship that fully funded my attendence to the INFORMS annnual conference. 
+          Selected as one of 15 recipients from over 10,000 applicants and the only awardee not enrolled in graduate school (<a href="https://www.amazon.science/latest-news/amazon-scot-announces-2022-informs-scholars" target="_blank">link</a>)</li>
+        <li> <strong>Office of Undergraduate Research Scholarship (2022)</strong>: Merit-based annual scholarship awarded to outstanding undergraduate students engaged in faculty-mentored research</li>
+        <li> <strong>Dean's List (2019-2023)</strong>: Maintained a cumulative GPA of 3.5+ (on a 4.0 scale) throughout all semesters of undergraduate study</li>
+      </ul>
+
+  <div class="section">
+    <h2>Languages</h2>
+      <ul>
+        <li> <strong>Portuguese</strong>: Native (reading, writing, and speaking)</li>
+        <li> <strong>English</strong>: Full professional proficiency (reading, writing, and speaking)</li>
+        <li> <strong>Spanish</strong>: Advanced (reading, writing) and Intermediate (speaking)</li>
+      </ul>
+    
+
+  <div class="section">
+    <h2>Links</h2>
+    <div class="links">
+      <a href="https://github.com/Vitor-FCCarvalho" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/vitorfcc" target="_blank">LinkedIn</a>
+      <a href="Vitor_Curriculo_PT.pdf" target="_blank">Download CV</a>
+    </div>
+  </div>
+
+  <div class="footer">
+    © 2026 Vitor Farias Costa de Carvalho
+  </div>
 
 </div>
+
 </body>
 </html>
