@@ -61,8 +61,13 @@
       font-size: 14px;
     }
 
+    .links {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
     .links a {
-      margin-right: 15px;
       text-decoration: none;
       color: #1f4e79;
       font-weight: bold;
@@ -89,10 +94,10 @@
 
   <p>
     I am an industrial engineer with a strong foundation in analytics, data science, and applied research. I earned both my bachelor's (2023) and master's (2025) degrees in 
-    Industrial Engineering from Purdue University, where I conducted research at the intersection of data science and neuroscience. Through academic research, internship experiences, and a wide 
-    range of projects, I have developed data-driven solutions spanning machine learning for neuroimaging to building personal dashboards that support more informed financial decision-making. 
-    I am passionate about developing solutions to translate complex data into clear, actionable insights. I am currently seeking entry-level opportunities in data science and analytics where I can 
-    apply my technical skills and collaborative experience to solve challenging problems.
+    Industrial Engineering from Purdue University, where I conducted research in applied data science. Through academic research, internship experiences, and a wide 
+    range of projects, I have developed data-driven solutions ranging from machine learning applications in neuroimaging and the development of dashboards that enable more intentional spending. 
+    I am passionate about developing solutions to translate complex data into clear, actionable insights. I am currently seeking entry-level data roles where I can leverage my technical skills
+    and collaborative experience to drive data-informed decision-making.
   </p>
 
   <div class="section">
@@ -100,11 +105,13 @@
     <div class="skills">
       <span>Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, PySpark)</span>
       <span>SQL</span>
-      <span>R</span>
       <span>Power BI</span>
-      <span>MATLAB</span>
       <span>Excel</span>
+      <span>R</span>
+      <span>MATLAB</span>
       <span>Power Automate</span>
+      <span>HMTL</span>
+      <span>CSS</span>
       <span>Git</span>
     </div>
   </div>
@@ -114,17 +121,19 @@
 
     <div class="project">
       <strong>Song Recommender System</strong><br>
-      As someone extremely passionate about music, I'm always on the hunt for the next song I'll play on repeat until I completely ruin it for myself. To support this noble (and self-destructive) pursuit, 
-      I am building a song recommendation system. The project leverages a dataset containing audio features from over 1.2 million songs (https://www.kaggle.com/datasets/rodolfofigueroa/spotify-12m-songs)
-      and Last.fm's API to collect songs' metadata and audio features and uses Databricks to ingest, store, and process the data for downstream modeling and recommendation generation.
+      As someone extremely passionate about music, I'm always on the hunt for the next song I'll play on repeat until I completely ruin it for myself. To support this noble (and slightly self-destructive) 
+      pursuit,  built a hybrid content-based recommendation system that takes a Spotify playlist as input and suggests new tracks with similar audio characteristics. The project leverages a dataset of over 
+      1.2 million Spotify songs and uses Databricks to build a scalable data pipeline that cleans, structures, and enriches song metadata with popularity metrics from the Last.fm API, helping generate more 
+      relevant recommendations. For more details, refer to this <a href="https://github.com/Vitor-FCCarvalho/music-recommender-system" target="_blank">Github repository</a>.
     </div>
 
     <div class="skills">
       <span>Python</span>
       <span>PySpark</span>
+      <span>SQL</span>
+      <span>Databricks</span>
       <span>Machine Learning</span>
       <span>Recommendation Systems</span>
-      <span>Databricks</span>
     </div>
 
     <div class="project">
@@ -234,7 +243,7 @@
 
   <div class="section">
     <h2>Education</h2>
-    <p>Master of Science in Industrial Engineering (May 2025), GPA: 3.86/4.0 — Purdue University, West Lafayette, IN, USA</p>
+    <p>Master of Science (with <a href="VitorCarvalho_Thesis.pdf" target="_blank">thesis</a>) in Industrial Engineering (May 2025), GPA: 3.86/4.0 — Purdue University, West Lafayette, IN, USA </p>
     <p>Bachelor of Science in Industrial Engineering, minor in Mathematics (May 2023), GPA: 3.74/4.0 — Purdue University, West Lafayette, IN, USA</p>
   </div>
 
@@ -244,8 +253,8 @@
         <li> <strong>Teaching/Research Assistantship (2023-2025)</strong>: Graduate funding providing tuition remission and a stipend while I conducted research and supported undergraduate instruction during my master's program</li>
         <li> <strong>Senior Design Executional Excellence Award (2023)</strong>: Awarded for the quality of work done in PepsiCo's fleet MPG optimization project (ranking 1st out of 34 senior design teams)</li>
         <li> <strong>Summer Undergraduate Research Fellowship (2022)</strong>: Competitive summer program that funds undergraduates in conducting faculty-mentored research</li>
-        <li> <strong>Amazon SCOT/INFORMS Scholarship (2022)</strong>: Amazon Science scholarship that fully funded my attendence to the INFORMS annnual conference. 
-          Selected as one of 15 recipients from over 10,000 applicants and the only awardee not enrolled in graduate school (<a href="https://www.amazon.science/latest-news/amazon-scot-announces-2022-informs-scholars" target="_blank">link</a>)</li>
+        <li> <strong> <a href="https://www.amazon.science/latest-news/amazon-scot-announces-2022-informs-scholars" target="_blank">Amazon SCOT/INFORMS Scholarship (2022)</a> </strong>: Amazon Science scholarship that fully funded my attendence to the INFORMS annnual conference. 
+          Selected as one of 15 recipients from over 10,000 applicants and the only awardee not enrolled in graduate school</li>
         <li> <strong>Office of Undergraduate Research Scholarship (2022)</strong>: Merit-based annual scholarship awarded to outstanding undergraduate students engaged in faculty-mentored research</li>
         <li> <strong>Dean's List (2019-2023)</strong>: Maintained a cumulative GPA of 3.5+ (on a 4.0 scale) throughout all semesters of undergraduate study</li>
       </ul>
@@ -259,14 +268,16 @@
       </ul>
     
 
-  <div class="section">
-    <h2>Links</h2>
-    <div class="links">
-      <a href="https://github.com/Vitor-FCCarvalho" target="_blank">GitHub</a>
-      <a href="https://linkedin.com/in/vitorfcc" target="_blank">LinkedIn</a>
-      <a href="VitorCarvalho_Resume_DA.pdf" target="_blank">Download CV</a>
-    </div>
-  </div>
+  <div class="links">
+    <a href="https://github.com/Vitor-FCCarvalho" target="_blank">GitHub</a>
+    <a href="https://linkedin.com/in/vitorfcc" target="_blank">LinkedIn</a>
+    <span>
+      Download CV (
+      <a href="VitorCarvalho_Resume_DA.pdf" target="_blank">English</a> |
+      <a href="Vitor_Curriculo_PT.pdf" target="_blank">Portuguese</a>
+      )
+    </span>
+</div>
 
   <div class="footer">
     © 2026 Vitor Farias Costa de Carvalho
